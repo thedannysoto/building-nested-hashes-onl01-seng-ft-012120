@@ -5,7 +5,16 @@ def fourth_challenge
       :matriarch => {name: "Lady Montague", age: "54"},
       :hero => {name: "Romeo", age: "15", status: "alive"},
       :hero_friends => [
-        #your hashes here!
+        { 
+          name: "Benvolio",
+          age: "17",
+          attitude: "worried"
+        },
+        {
+          name: "Mercutio",
+          age: "18",
+          attitude: "hot-headed"
+        }
       ]
    }, 
    :capulet => {
@@ -19,19 +28,7 @@ def fourth_challenge
 }
 end
 
-The hero's two friends are Benvolio and Mercutio. So, the `:hero_friends` array will contain two hashes. Each of these two hashes have the following three keys:
 
-* `:name`
-* `:age`
-* `:attitude`
-
-The hero's first friend has
-
-* a name of "Benvolio",
-* an age of "17", and
-* an attitude of "worried".
-
-The hero's second friend has
 
 * a name of "Mercutio",
 * an age of "18", and
